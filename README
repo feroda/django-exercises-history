@@ -1,0 +1,18 @@
+To reproducte BUG #5
+--------------------
+
+Use PostgreSQL: SQlite doesn't check for integrity
+
+CREATE DATABASE djex_history TEMPLATE template0 ENCODING 'utf-8';
+
+python manage.py syncdb
+python manage.py runserver
+
+then point your browser to
+
+http://localhost:8000/admin
+
+create Books and Authors
+delete a Book with an Author
+
+
