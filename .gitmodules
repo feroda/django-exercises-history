@@ -1,0 +1,3 @@
+[submodule "submodules/django-pro-history"]
+	path = submodules/django-pro-history
+	url = git@github.com:feroda/django-pro-history.git
